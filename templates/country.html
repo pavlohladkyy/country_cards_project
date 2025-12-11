@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ country.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<h1 class="page-title">{{ country.name }}</h1>
+
+<div class="country-details">
+    <div class="big-flag">
+        <img src="{{ url_for('static', filename=country.image) }}" alt="{{ country.name }}">
+    </div>
+
+    <div class="info-block">
+        <div class="info-item">
+            <strong>Capital:</strong> {{ country.capital }}
+        </div>
+        <div class="info-item">
+            <strong>Population:</strong> {{ country.population }}
+        </div>
+        <div class="info-item">
+            <strong>Area:</strong> {{ country.area }}
+        </div>
+        <div class="info-item">
+            <strong>Language:</strong> {{ country.language }}
+        </div>
+        <div class="info-item">
+            <strong>Description:</strong> {{ country.description }}
+        </div>
+        <a href="{{ url_for('index') }}" class="back-btn">← Back to List</a>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.country-card {
+    background: white;
+    border: 3px solid #000;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 900px;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
+
+/* Flag area */
+
+.flag-placeholder {
+    width: 150px;
+    height: 100px;
+    border: 3px solid #000;
+    border-radius: 12px;
+    background: #eee;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.flag-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Country name + lines */
+
+.country-info h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.country-desc {
+    margin: 8px 0;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.lines {
+    margin-top: 12px;
+}
+
+.lines span {
+    display: block;
+    width: 260px;
+    height: 3px;
+    background: #000;
+    margin-bottom: 10px;
+}
+
+/* Button */
+
+.learn-btn {
+    margin-left:70%;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+.learn-btn:hover {
+    background: #e0e0e0;
+}
+
+/* Country page */
+.country-details {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+.big-flag {
+    width: 450px;
+    height: 260px;
+    border: 3px solid #000;
+    background: #eee;
+    overflow: hidden;
+}
+.big-flag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info-block .line {
+    width: 350px;
+    height: 4px;
+    background: black;
+    margin: 20px 0;
+}
+.info-block .info-item {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 4px solid #000;
+    border-radius: 4px;
+    line-height: 1.6;
+}
+.info-block .info-item strong {
+    color: #000;
+    display: block;
+    margin-bottom: 5px;
+}
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+.back-btn:hover {
+    background: #333;
+}

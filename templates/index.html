@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<h1 class="page-title">List of Countries</h1>
+
+{% for country in countries %}
+<div class="country-card">
+
+    <div class="flag-placeholder">
+        {% if country.image %}
+            <img src="{{ url_for('static', filename=country.image) }}" alt="{{ country.name }}" class="flag-image">
+        {% endif %}
+    </div>
+
+    <div class="country-info">
+        <h2>{{ country.name }}</h2>
+        <p class="country-desc"><strong>Capital:</strong> {{ country.capital }}</p>
+        <p class="country-desc">{{ country.description }}</p>
+
+        </div>
+    </div>
+
+    <a href="{{ url_for('country_page', country_id=country.id) }}" class="learn-btn">
+        Learn more
+    </a>
+
+</div>
+{% endfor %}
+
+</body>
+</html>
