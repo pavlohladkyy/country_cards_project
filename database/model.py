@@ -8,7 +8,7 @@ COUNTRIES_DATA = [
     {
         'id': 1,
         'name': 'Ukraine',
-        'image': 'static\image\unnamed.jpg',
+        'image': 'images/unnamed.jpg',
         'capital': 'Kyiv',
         'population': '41,167,000',
         'area': '603,500 km²',
@@ -18,7 +18,7 @@ COUNTRIES_DATA = [
     {
         'id': 2,
         'name': 'Poland',
-        'image': 'static\image\polska.jpg',
+        'image': 'images/polska.jpg',
         'capital': 'Warsaw',
         'population': '37,840,000',
         'area': '312,696 km²',
@@ -28,7 +28,7 @@ COUNTRIES_DATA = [
     {
         'id': 3,
         'name': 'Germany',
-        'image': 'images\png-transparent-flag-of-germany-german-grammar-medizin-germany-word-red.png',
+        'image': 'images/png-transparent-flag-of-germany-german-grammar-medizin-germany-word-red.png',
         'capital': 'Berlin',
         'population': '83,370,000',
         'area': '357,022 km²',
@@ -38,7 +38,7 @@ COUNTRIES_DATA = [
     {
         'id': 4,
         'name': 'France',
-        'image': 'static\image\pngimg.com - flags_PNG14627.png',
+        'image': 'images/pngimg.com - flags_PNG14627.png',
         'capital': 'Paris',
         'population': '67,970,000',
         'area': '643,801 km²',
@@ -48,7 +48,7 @@ COUNTRIES_DATA = [
     {
         'id': 5,
         'name': 'Italy',
-        'image': 'images\png-transparent-flag-of-italy-graphy-italy-flag-photography-flag-of-the-united-states-thumbnail.png',
+        'image': 'images/png-transparent-flag-of-italy-graphy-italy-flag-photography-flag-of-the-united-states-thumbnail.png',
         'capital': 'Rome',
         'population': '59,110,000',
         'area': '301,340 km²',
@@ -58,7 +58,7 @@ COUNTRIES_DATA = [
     {
         'id': 6,
         'name': 'Spain',
-        'image': 'images\Flag_map_of_Spain.svg.png',
+        'image': 'images/Flag_map_of_Spain.svg.png',
         'capital': 'Madrid',
         'population': '47,560,000',
         'area': '505,990 km²',
@@ -68,7 +68,7 @@ COUNTRIES_DATA = [
     {
         'id': 7,
         'name': 'United Kingdom',
-        'image': 'images\png-transparent-flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom-thumbnail.png',
+        'image': 'images/png-transparent-flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom-thumbnail.png',
         'capital': 'London',
         'population': '67,530,000',
         'area': '242,495 km²',
